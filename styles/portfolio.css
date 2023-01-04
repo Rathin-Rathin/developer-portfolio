@@ -18,6 +18,9 @@
     padding: 18px 35px;
 
 }
+section{
+    margin-top: 130px;
+}
 
 /* Header and navigation part */
 .header {
@@ -87,7 +90,6 @@ main {
 
 /*About section*/
 .about {
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -95,8 +97,8 @@ main {
 }
 
 .section-title {
-
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
     color: #181818;
@@ -124,3 +126,34 @@ main {
     font-size: 20px;
     color: #474747;
 }
+
+/* What i do   */
+
+
+/* Skills part design */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding:30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+/* Resume design */
